@@ -15,9 +15,10 @@ fun main (){
             soma += num
         }
     }
+    valor = valor - 1
 
     println("A soma dos valores é: $soma")
-    println("A média dos valores é: ${soma/(valor - 1)}")
+    println("A média dos valores é: ${soma/valor}")
     println("O total é: $valor")
 
 }
