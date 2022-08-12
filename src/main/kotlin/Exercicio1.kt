@@ -4,7 +4,7 @@ fun main() {
     var M = 0
 
     print("Digite o peso dos tomates: ")
-    P = readLine()!!.toInt()
+    P = readln().toInt()
 
     E =  P - 50
 
